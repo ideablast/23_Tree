@@ -147,6 +147,10 @@
     <ClInclude Include="FUNC.h" />
     <ClInclude Include="LIB.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="23_tree_function.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

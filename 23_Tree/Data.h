@@ -1,9 +1,12 @@
 #ifndef __Data_H__
 #define __Data_H__
+typedef struct _nData {
+	int Left;
+	int Right;
+}nData;
 
 typedef struct _Node {
-	int L_nData;
-	int R_nData;
+	nData nData;
 	struct _Node *L_Next;
 	struct _Node *M_Next;
 	struct _Node *R_Next;
@@ -15,8 +18,13 @@ typedef struct _Node {
 
 
 #define LEFT 100
+#define CENTER 150
 #define RIGHT 200
-#define END 300
+
+#define NODE_0 250
+#define NODE_2 300
+#define NODE_3 400
+
 
 #define TRUE 1
 #define FALSE 0
