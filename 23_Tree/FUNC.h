@@ -10,5 +10,7 @@ int Range_checker(Node *target_node, int item);
 int Type_of_node(Node *cur_node);
 int Exception_check(Node *cur_node);
 void Insert_23_node(Node * top, int item);
+void Print_pre_order(Node *top);
+int Search_depth(Node *top);
 
 #endif

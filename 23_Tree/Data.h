@@ -7,9 +7,7 @@ typedef struct _nData {
 
 typedef struct _Node {
 	nData nData;
-	struct _Node *L_Next;
-	struct _Node *M_Next;
-	struct _Node *R_Next;
+	struct _Node *Link[3];//0:Left, 1:Middle, 2:Right
 }Node;
 
 
@@ -22,8 +20,11 @@ typedef struct _Node {
 #define RIGHT 200
 
 #define NODE_0 250
-#define NODE_2 300
+#define NODE_2 350
 #define NODE_3 400
+
+#define NODE_LMR 450
+#define NODE_LR
 
 
 #define TRUE 1
